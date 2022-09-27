@@ -1,0 +1,13 @@
+import math
+
+n = int(input("Enter a num: "))
+x = math.sqrt(n)
+print(x)
+y = x*x
+#perfect square na (minus panna 0 varum ilana sqrt pantu mutliply panna initial number varnum)
+
+if y==n:
+    print("yes")
+    
+else:
+    print("no")
